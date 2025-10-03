@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	for i := 1; i <= 100; i++ {
 		if i%3 == 0 && i%5 == 0 {
-			fmt.Println("PINPAN")
+			fmt.Println("PINGPANG")
 		} else if i%3 == 0 {
-			fmt.Println("PIN")
+			fmt.Println("PING")
 		} else if i%5 == 0 {
-			fmt.Println("PAN")
+			fmt.Println("PANG")
 		} else {
 			fmt.Printf("%d\n", i)
 		}
